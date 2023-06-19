@@ -1,0 +1,25 @@
+uuid: 30f93b6a-745f-4da7-ab8a-20b6a6f5466f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.secondary-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: secondarymenu
+theme: bootstrap
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:secondary-menu'
+settings:
+  id: 'system_menu_block:secondary-menu'
+  label: 'Secondary Menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

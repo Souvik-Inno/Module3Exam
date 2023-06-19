@@ -1,0 +1,21 @@
+uuid: 30082420-c98c-44d0-a91e-590210416a46
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: style
+label: style
+code: |-
+  .menu menu--secondary-menu {
+  	display: flex;
+  }
+media: all
+preprocess: true
+conditions:
+  current_theme:
+    id: current_theme
+    negate: false
+    theme: bootstrap
+contexts: {  }
+conditions_require_all: true

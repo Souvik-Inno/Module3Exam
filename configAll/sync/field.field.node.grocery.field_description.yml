@@ -1,0 +1,21 @@
+uuid: a10c4557-a2a7-4720-9310-ce45eb81f756
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.grocery
+  module:
+    - text
+id: node.grocery.field_description
+field_name: field_description
+entity_type: node
+bundle: grocery
+label: Description
+description: 'Grocery item description'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,28 @@
+uuid: 10e6f993-39e6-4b8c-bcbb-fae5a15c8783
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fashion.field_fashion_description
+    - field.field.node.fashion.field_fashion_image
+    - field.field.node.fashion.field_fashion_name
+    - field.field.node.fashion.field_fashion_price
+    - node.type.fashion
+  module:
+    - user
+id: node.fashion.teaser
+targetEntityType: node
+bundle: fashion
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_fashion_description: true
+  field_fashion_image: true
+  field_fashion_name: true
+  field_fashion_price: true

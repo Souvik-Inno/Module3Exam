@@ -1,0 +1,21 @@
+uuid: 264d552c-01d6-452f-9cc6-50194ef00936
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_description
+    - node.type.fashion
+  module:
+    - text
+id: node.fashion.field_fashion_description
+field_name: field_fashion_description
+entity_type: node
+bundle: fashion
+label: 'Fashion Description'
+description: 'Small description of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

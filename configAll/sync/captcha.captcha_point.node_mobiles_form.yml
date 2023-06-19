@@ -1,0 +1,7 @@
+uuid: d482dab3-5d03-472f-9dc4-b0ce193a67f3
+langcode: en
+status: false
+dependencies: {  }
+formId: node_mobiles_form
+captchaType: default
+label: node_mobiles_form

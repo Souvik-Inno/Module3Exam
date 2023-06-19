@@ -1,0 +1,61 @@
+uuid: f211871e-3c93-44dd-84cc-25f8dd1765b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fashion.field_fashion_description
+    - field.field.node.fashion.field_fashion_image
+    - field.field.node.fashion.field_fashion_name
+    - field.field.node.fashion.field_fashion_price
+    - image.style.thumbnail
+    - node.type.fashion
+  module:
+    - image
+    - text
+    - user
+id: node.fashion.default
+targetEntityType: node
+bundle: fashion
+mode: default
+content:
+  field_fashion_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_fashion_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_fashion_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_fashion_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

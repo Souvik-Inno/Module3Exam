@@ -1,0 +1,7 @@
+uuid: 960eb170-37eb-41ec-a26c-b652a4b095a3
+langcode: en
+status: false
+dependencies: {  }
+formId: node_grocery_form
+captchaType: default
+label: node_grocery_form

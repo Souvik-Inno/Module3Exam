@@ -1,0 +1,7 @@
+uuid: 767123d4-0677-4fcf-a804-bed515c55ae1
+langcode: en
+status: false
+dependencies: {  }
+formId: node_electronics_form
+captchaType: default
+label: node_electronics_form

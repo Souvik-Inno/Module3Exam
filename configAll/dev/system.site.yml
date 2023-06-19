@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 680f3e23-d0ee-476f-9e61-40099e3181ca
+name: 'Local Employee Management Portal'
+mail: souvik.banerjee@innoraft.com
+slogan: ''
+page:
+  403: /node/19
+  404: /node/18
+  front: /node/14
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

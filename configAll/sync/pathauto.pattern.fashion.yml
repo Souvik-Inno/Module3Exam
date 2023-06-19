@@ -1,0 +1,22 @@
+uuid: abeccd34-9bb7-4958-8bde-a75ab3ca7007
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: fashion
+label: Fashion
+type: 'canonical_entities:node'
+pattern: 'fashion/[node:title]'
+selection_criteria:
+  361cf51e-94ff-43d0-ae42-0c3d9c3c69db:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 361cf51e-94ff-43d0-ae42-0c3d9c3c69db
+    context_mapping:
+      node: node
+    bundles:
+      fashion: fashion
+selection_logic: and
+weight: -5
+relationships: {  }

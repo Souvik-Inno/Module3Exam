@@ -1,0 +1,61 @@
+uuid: d6478cac-2a97-47d2-a3f8-f59869d15825
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.appliances.field_appliance_description
+    - field.field.node.appliances.field_appliance_image
+    - field.field.node.appliances.field_appliance_name
+    - field.field.node.appliances.field_appliance_price
+    - image.style.thumbnail
+    - node.type.appliances
+  module:
+    - image
+    - text
+    - user
+id: node.appliances.default
+targetEntityType: node
+bundle: appliances
+mode: default
+content:
+  field_appliance_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_appliance_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_appliance_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_appliance_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

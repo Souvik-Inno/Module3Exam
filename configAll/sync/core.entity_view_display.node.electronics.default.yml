@@ -1,0 +1,61 @@
+uuid: 5e750142-f09e-4a97-a2a0-0bab31549c65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.electronics.field_electronics_description
+    - field.field.node.electronics.field_electronics_image
+    - field.field.node.electronics.field_electronics_name
+    - field.field.node.electronics.field_electronics_price
+    - image.style.thumbnail
+    - node.type.electronics
+  module:
+    - image
+    - text
+    - user
+id: node.electronics.default
+targetEntityType: node
+bundle: electronics
+mode: default
+content:
+  field_electronics_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_electronics_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_electronics_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_electronics_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

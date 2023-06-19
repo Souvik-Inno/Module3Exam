@@ -1,0 +1,61 @@
+uuid: 398c8f0e-f77b-4206-be1d-7dc243730126
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.2_wheelers.field_2_wheelers_description
+    - field.field.node.2_wheelers.field_2_wheelers_image
+    - field.field.node.2_wheelers.field_2_wheelers_name
+    - field.field.node.2_wheelers.field_2_wheelers_price
+    - image.style.thumbnail
+    - node.type.2_wheelers
+  module:
+    - image
+    - text
+    - user
+id: node.2_wheelers.default
+targetEntityType: node
+bundle: 2_wheelers
+mode: default
+content:
+  field_2_wheelers_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_2_wheelers_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_2_wheelers_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_2_wheelers_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

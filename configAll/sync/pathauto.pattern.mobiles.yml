@@ -1,0 +1,22 @@
+uuid: aeac2e64-6b1c-451e-b1f3-afd3d55ff92a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: mobiles
+label: Mobiles
+type: 'canonical_entities:node'
+pattern: 'mobiles/[node:title]'
+selection_criteria:
+  6e393df8-053e-480f-bdf6-d116e8d38459:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6e393df8-053e-480f-bdf6-d116e8d38459
+    context_mapping:
+      node: node
+    bundles:
+      mobiles: mobiles
+selection_logic: and
+weight: -5
+relationships: {  }

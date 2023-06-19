@@ -1,0 +1,19 @@
+uuid: 2b91268e-c852-4aa7-a571-5d7a999e0340
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_name
+    - node.type.fashion
+id: node.fashion.field_fashion_name
+field_name: field_fashion_name
+entity_type: node
+bundle: fashion
+label: 'Fashion Name'
+description: 'Name of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

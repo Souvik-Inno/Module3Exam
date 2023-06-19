@@ -1,0 +1,19 @@
+uuid: d699702b-34b8-402b-b5f5-9db0ad470f5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_electronics_name
+    - node.type.electronics
+id: node.electronics.field_electronics_name
+field_name: field_electronics_name
+entity_type: node
+bundle: electronics
+label: 'Electronics Name'
+description: 'Name of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,29 @@
+uuid: 03a84dfe-f3a3-4790-92cb-499dda69f6d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.highest_content_creators
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__highest_content_creators_block_1
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:highest_content_creators-block_1'
+settings:
+  id: 'views_block:highest_content_creators-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

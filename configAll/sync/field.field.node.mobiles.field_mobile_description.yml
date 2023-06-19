@@ -1,0 +1,21 @@
+uuid: efe746c9-aa16-4f08-90ac-6a8b07390e2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_mobile_description
+    - node.type.mobiles
+  module:
+    - text
+id: node.mobiles.field_mobile_description
+field_name: field_mobile_description
+entity_type: node
+bundle: mobiles
+label: 'Mobile Description'
+description: 'Small Description of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

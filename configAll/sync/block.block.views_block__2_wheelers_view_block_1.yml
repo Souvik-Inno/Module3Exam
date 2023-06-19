@@ -1,0 +1,29 @@
+uuid: 984e5810-2814-41bc-88e2-1dd207dc2174
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.2_wheelers_view
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__2_wheelers_view_block_1
+theme: bootstrap
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:2_wheelers_view-block_1'
+settings:
+  id: 'views_block:2_wheelers_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

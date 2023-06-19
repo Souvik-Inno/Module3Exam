@@ -1,0 +1,19 @@
+uuid: c46bb3b1-2f07-4857-8fe2-e9775b5d3aba
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_electronics_description
+field_name: field_electronics_description
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
