@@ -1,0 +1,21 @@
+uuid: 9e89f5b0-6baf-4295-908d-0aab7c0111db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_electronics_description
+    - node.type.electronics
+  module:
+    - text
+id: node.electronics.field_electronics_description
+field_name: field_electronics_description
+entity_type: node
+bundle: electronics
+label: 'Electronics Description'
+description: 'Description of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

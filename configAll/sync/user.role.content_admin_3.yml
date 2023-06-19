@@ -1,0 +1,14 @@
+uuid: 27a8424a-d590-449c-9642-6de837d807d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - node
+id: content_admin_3
+label: 'Content admin 3'
+weight: 7
+is_admin: null
+permissions:
+  - 'create page content'

@@ -1,0 +1,23 @@
+uuid: e10bf362-a7e6-4f3a-8dff-8486fe79f969
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_electronics_price
+    - node.type.electronics
+id: node.electronics.field_electronics_price
+field_name: field_electronics_price
+entity_type: node
+bundle: electronics
+label: 'Electronics Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

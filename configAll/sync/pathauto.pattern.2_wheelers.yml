@@ -1,0 +1,22 @@
+uuid: 9f7defd6-406f-49af-b9cc-4eafdda43c40
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: 2_wheelers
+label: '2 Wheelers'
+type: 'canonical_entities:node'
+pattern: '2wheeleres/[node:title]'
+selection_criteria:
+  5f6776dc-26d0-4e56-9e59-13a1699312f9:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 5f6776dc-26d0-4e56-9e59-13a1699312f9
+    context_mapping:
+      node: node
+    bundles:
+      2_wheelers: 2_wheelers
+selection_logic: and
+weight: -5
+relationships: {  }

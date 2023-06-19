@@ -1,0 +1,23 @@
+uuid: 58df7600-cb4c-4a8f-84f6-5ad70205bf72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fashion_price
+    - node.type.fashion
+id: node.fashion.field_fashion_price
+field_name: field_fashion_price
+entity_type: node
+bundle: fashion
+label: 'Fashion Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

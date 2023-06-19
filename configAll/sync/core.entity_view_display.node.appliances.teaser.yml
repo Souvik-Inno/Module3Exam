@@ -1,0 +1,28 @@
+uuid: d4d7fbca-4685-4b5d-a91c-4fd031602938
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.appliances.field_appliance_description
+    - field.field.node.appliances.field_appliance_image
+    - field.field.node.appliances.field_appliance_name
+    - field.field.node.appliances.field_appliance_price
+    - node.type.appliances
+  module:
+    - user
+id: node.appliances.teaser
+targetEntityType: node
+bundle: appliances
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_appliance_description: true
+  field_appliance_image: true
+  field_appliance_name: true
+  field_appliance_price: true

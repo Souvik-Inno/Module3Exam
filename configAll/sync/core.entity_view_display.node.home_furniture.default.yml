@@ -1,0 +1,61 @@
+uuid: dbd19f45-62de-43d9-9804-bb3930190a9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_furniture.field_home_furniture_description
+    - field.field.node.home_furniture.field_home_furniture_image
+    - field.field.node.home_furniture.field_home_furniture_price
+    - field.field.node.home_furniture.field_home_name
+    - image.style.thumbnail
+    - node.type.home_furniture
+  module:
+    - image
+    - text
+    - user
+id: node.home_furniture.default
+targetEntityType: node
+bundle: home_furniture
+mode: default
+content:
+  field_home_furniture_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_home_furniture_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_home_furniture_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_home_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

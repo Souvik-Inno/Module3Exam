@@ -1,0 +1,23 @@
+uuid: 99fa2f21-f9a1-4555-9521-db115dd84ef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_home_furniture_price
+    - node.type.home_furniture
+id: node.home_furniture.field_home_furniture_price
+field_name: field_home_furniture_price
+entity_type: node
+bundle: home_furniture
+label: 'Home & Furniture Price'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

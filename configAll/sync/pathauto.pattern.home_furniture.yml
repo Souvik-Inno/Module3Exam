@@ -1,0 +1,22 @@
+uuid: c8015ce9-dbce-41ba-a618-77474dc68e3d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: home_furniture
+label: 'Home & Furniture'
+type: 'canonical_entities:node'
+pattern: 'hnf/[node:title]'
+selection_criteria:
+  d663c1e9-dc32-4386-8489-51fa474ff754:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: d663c1e9-dc32-4386-8489-51fa474ff754
+    context_mapping:
+      node: node
+    bundles:
+      home_furniture: home_furniture
+selection_logic: and
+weight: -5
+relationships: {  }

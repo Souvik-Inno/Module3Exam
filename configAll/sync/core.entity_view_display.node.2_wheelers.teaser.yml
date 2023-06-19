@@ -1,0 +1,28 @@
+uuid: e22de63a-accd-465e-a715-78646237d8f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.2_wheelers.field_2_wheelers_description
+    - field.field.node.2_wheelers.field_2_wheelers_image
+    - field.field.node.2_wheelers.field_2_wheelers_name
+    - field.field.node.2_wheelers.field_2_wheelers_price
+    - node.type.2_wheelers
+  module:
+    - user
+id: node.2_wheelers.teaser
+targetEntityType: node
+bundle: 2_wheelers
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_2_wheelers_description: true
+  field_2_wheelers_image: true
+  field_2_wheelers_name: true
+  field_2_wheelers_price: true

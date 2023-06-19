@@ -1,0 +1,23 @@
+uuid: d87fc38a-56e5-47cb-a825-f24199a6b8a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_2_wheelers_price
+    - node.type.2_wheelers
+id: node.2_wheelers.field_2_wheelers_price
+field_name: field_2_wheelers_price
+entity_type: node
+bundle: 2_wheelers
+label: '2 Wheelers Price'
+description: 'Price of the item.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

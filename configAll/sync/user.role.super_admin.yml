@@ -1,0 +1,69 @@
+uuid: 86f37077-9b84-49b0-bf2e-42fe50ebbc0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.2_wheelers
+    - node.type.appliances
+    - node.type.article
+    - node.type.electronics
+    - node.type.fashion
+    - node.type.grocery
+    - node.type.home_furniture
+    - node.type.mobiles
+    - node.type.page
+  module:
+    - node
+id: super_admin
+label: 'Super Admin'
+weight: 4
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'administer permissions'
+  - 'administer users'
+  - 'create 2_wheelers content'
+  - 'create appliances content'
+  - 'create article content'
+  - 'create electronics content'
+  - 'create fashion content'
+  - 'create grocery content'
+  - 'create home_furniture content'
+  - 'create mobiles content'
+  - 'create page content'
+  - 'delete 2_wheelers revisions'
+  - 'delete any 2_wheelers content'
+  - 'delete any appliances content'
+  - 'delete any article content'
+  - 'delete any electronics content'
+  - 'delete any fashion content'
+  - 'delete any grocery content'
+  - 'delete any home_furniture content'
+  - 'delete any mobiles content'
+  - 'delete any page content'
+  - 'delete appliances revisions'
+  - 'delete article revisions'
+  - 'delete electronics revisions'
+  - 'delete fashion revisions'
+  - 'delete grocery revisions'
+  - 'delete home_furniture revisions'
+  - 'delete mobiles revisions'
+  - 'delete own 2_wheelers content'
+  - 'delete own appliances content'
+  - 'delete own article content'
+  - 'delete own electronics content'
+  - 'delete own fashion content'
+  - 'delete own grocery content'
+  - 'delete own home_furniture content'
+  - 'delete own mobiles content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'edit any 2_wheelers content'
+  - 'edit any appliances content'
+  - 'edit any article content'
+  - 'edit any electronics content'
+  - 'edit any fashion content'
+  - 'edit any grocery content'
+  - 'edit any home_furniture content'
+  - 'edit any mobiles content'
+  - 'edit any page content'
